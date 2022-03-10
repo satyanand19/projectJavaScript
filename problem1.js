@@ -1,6 +1,6 @@
 
 function run(inventory) {
-    let Details=[];
+    let Details=null;
     for (let counter = 0;counter <= inventory.length; counter++) {
        if(inventory[counter]['id'] === 33) {
            Details = inventory[counter];
@@ -9,7 +9,5 @@ function run(inventory) {
     }
     console.log('Car 33 is a '+ Details['car_year']+' '+Details['car_make']+' '+Details['car_model']);
 }
-function ts2() {
    
-}
-export { run ,ts2 }
+module.exports =run ;

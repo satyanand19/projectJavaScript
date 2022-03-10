@@ -15,4 +15,4 @@ function sortAlphabetically(inventory) {
     }
     
 }
-export { sortAlphabetically };
+module.exports = sortAlphabetically ;

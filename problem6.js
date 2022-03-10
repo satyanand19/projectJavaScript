@@ -9,6 +9,7 @@ function BMWAndAudi(inventory) {
             array.push(inventory[i]);
           }
     }
+    
     console.log(JSON.stringify(array));
 }
-export { BMWAndAudi};
+module.exports = BMWAndAudi;
